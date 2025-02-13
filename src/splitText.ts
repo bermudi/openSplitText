@@ -227,7 +227,7 @@ export class SplitText implements SplitTextResult {
                 if (index < wordsArray.length - 1) {
                     const space = document.createElement('span');
                     space.textContent = ' ';
-                    space.style.display = 'inline-block';
+                    // space.style.display = 'inline-block'; // Ensure spacing is visible
                     this.target.appendChild(space);
                 }
             });
